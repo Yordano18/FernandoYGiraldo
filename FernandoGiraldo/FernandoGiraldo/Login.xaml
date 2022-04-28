@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FernandoGiraldo.Login">
+    <ContentPage.Content>
+        <StackLayout>
+            <Image Source="https://sbsconsulting.com.ec/wp-content/uploads/2018/01/LOGO-UISRAEL-768x209.png "/>
+            <Label Text="Usuario: "/>
+            <Entry x:Name="txtUsuario" />
+            <Label Text="Contraseña: " />
+            <Entry x:Name="txtContrasena" IsPassword="True"/>
+            <Button x:Name="btnLogin" BackgroundColor="Blue" 
+                        Clicked="btnLogin_Clicked" TextColor="White" Text="Iniciar Sesión"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
